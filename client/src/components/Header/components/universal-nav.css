@@ -219,7 +219,7 @@ li > button.nav-link-signout:not([aria-disabled='true']):is(:hover, :focus) {
 }
 
 .lang-button-nav {
-  padding: 5px;
+  padding: 3px;
 }
 
 .exposed-button-nav:hover,
@@ -294,7 +294,7 @@ li > button.nav-link-signout:not([aria-disabled='true']):is(:hover, :focus) {
 
 .signup-btn {
   max-height: calc(var(--header-height) - 6px);
-  padding: 4px 12px;
+  padding: 0.6px 12px;
   margin-inline-start: 2px;
   display: flex;
   align-items: center;
@@ -425,9 +425,6 @@ li > button.nav-link-signout:not([aria-disabled='true']):is(:hover, :focus) {
   }
   .exposed-button-nav {
     padding: 2px 8px;
-  }
-  #universal-nav-logo {
-    padding-block: 0.2em 0.1em;
   }
 }
 
